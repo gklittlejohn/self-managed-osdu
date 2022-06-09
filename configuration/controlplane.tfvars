@@ -34,6 +34,6 @@ cosmosdb_consistency_level = "Session"
 cosmos_graph_databases = [
   {
     name       = "osdu-graph"
-    throughput = 4000
+    throughput = 1000
   }
 ]
