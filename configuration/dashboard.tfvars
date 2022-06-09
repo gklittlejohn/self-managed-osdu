@@ -13,7 +13,7 @@
 //  limitations under the License.
 
 
-tenant_name = "<your_tenant>"
+tenant_name = "HRH Geology Ltd"
 
 prefix = "osdu-self"
 
@@ -34,7 +34,7 @@ action-groups = {
     email-receiver = [
       {
         name                = "primary receiver",
-        email-address       = "dummy@microsoft.com",
+        email-address       = "graeme.littlejohn@hrhgeology.com",
         common-alert-schema = false
       }
     ],
