@@ -30,15 +30,15 @@ subnet_be_prefix  = "10.10.3.0/28"
 
 # Kubernetes Settings
 kubernetes_version = "1.21.9"
-aks_agent_vm_count = "6"
+aks_agent_vm_count = "2"
 aks_agent_vm_disk  = 128
-aks_agent_vm_size  = "Standard_E4s_v3"
+aks_agent_vm_size  = "Standard_B2ms"
 
 # Database Settings
 cosmos_databases = [
   {
     name       = "osdu-system-db"
-    throughput = 4000
+    throughput = 1000
   }
 ]
 
