@@ -38,7 +38,7 @@ aks_agent_vm_size  = "Standard_B2ms"
 cosmos_databases = [
   {
     name       = "osdu-system-db"
-    throughput = 1000
+    throughput = 4000
   }
 ]
 
